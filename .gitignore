@@ -29,3 +29,6 @@ yarn-error.log*
 /.firebaserc
 /.firebase
 /functions
+
+#slack-accessUrl
+/src/components/Forms/SlackUrl.js
