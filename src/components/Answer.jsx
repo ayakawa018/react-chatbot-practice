@@ -13,7 +13,7 @@ const useStyles = makeStyles((theme) => ({
 const Answer = (props) => {
   const classes = useStyles();
   return (
-    <Button variant="contained" color="secondary">
+    <Button variant="contained" color="secondary" onClick={() => props.select(props.content, props.nextId)}>
       {props.content}
     </Button>
   )
